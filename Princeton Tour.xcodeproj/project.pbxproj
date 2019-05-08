@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C702576922828770008F3666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C702576822828770008F3666 /* AppDelegate.swift */; };
+		C702576B22828770008F3666 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C702576A22828770008F3666 /* ViewController.swift */; };
+		C702576E22828770008F3666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C702576C22828770008F3666 /* Main.storyboard */; };
+		C702577022828772008F3666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C702576F22828772008F3666 /* Assets.xcassets */; };
+		C702577322828772008F3666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C702577122828772008F3666 /* LaunchScreen.storyboard */; };
+		C702577E22828772008F3666 /* Princeton_TourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C702577D22828772008F3666 /* Princeton_TourTests.swift */; };
+		C702578922828772008F3666 /* Princeton_TourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C702578822828772008F3666 /* Princeton_TourUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C702577A22828772008F3666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C702575D22828770008F3666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C702576422828770008F3666;
+			remoteInfo = "Princeton Tour";
+		};
+		C702578522828772008F3666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C702575D22828770008F3666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C702576422828770008F3666;
+			remoteInfo = "Princeton Tour";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C702576522828770008F3666 /* Princeton Tour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Princeton Tour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C702576822828770008F3666 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C702576A22828770008F3666 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C702576D22828770008F3666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C702576F22828772008F3666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C702577222828772008F3666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C702577422828772008F3666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C702577922828772008F3666 /* Princeton TourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Princeton TourTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C702577D22828772008F3666 /* Princeton_TourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Princeton_TourTests.swift; sourceTree = "<group>"; };
+		C702577F22828772008F3666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C702578422828772008F3666 /* Princeton TourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Princeton TourUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C702578822828772008F3666 /* Princeton_TourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Princeton_TourUITests.swift; sourceTree = "<group>"; };
+		C702578A22828772008F3666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C702576222828770008F3666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C702577622828772008F3666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C702578122828772008F3666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C702575C22828770008F3666 = {
+			isa = PBXGroup;
+			children = (
+				C702576722828770008F3666 /* Princeton Tour */,
+				C702577C22828772008F3666 /* Princeton TourTests */,
+				C702578722828772008F3666 /* Princeton TourUITests */,
+				C702576622828770008F3666 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C702576622828770008F3666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C702576522828770008F3666 /* Princeton Tour.app */,
+				C702577922828772008F3666 /* Princeton TourTests.xctest */,
+				C702578422828772008F3666 /* Princeton TourUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C702576722828770008F3666 /* Princeton Tour */ = {
+			isa = PBXGroup;
+			children = (
+				C702576822828770008F3666 /* AppDelegate.swift */,
+				C702576A22828770008F3666 /* ViewController.swift */,
+				C702576C22828770008F3666 /* Main.storyboard */,
+				C702576F22828772008F3666 /* Assets.xcassets */,
+				C702577122828772008F3666 /* LaunchScreen.storyboard */,
+				C702577422828772008F3666 /* Info.plist */,
+			);
+			path = "Princeton Tour";
+			sourceTree = "<group>";
+		};
+		C702577C22828772008F3666 /* Princeton TourTests */ = {
+			isa = PBXGroup;
+			children = (
+				C702577D22828772008F3666 /* Princeton_TourTests.swift */,
+				C702577F22828772008F3666 /* Info.plist */,
+			);
+			path = "Princeton TourTests";
+			sourceTree = "<group>";
+		};
+		C702578722828772008F3666 /* Princeton TourUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C702578822828772008F3666 /* Princeton_TourUITests.swift */,
+				C702578A22828772008F3666 /* Info.plist */,
+			);
+			path = "Princeton TourUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C702576422828770008F3666 /* Princeton Tour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C702578D22828772008F3666 /* Build configuration list for PBXNativeTarget "Princeton Tour" */;
+			buildPhases = (
+				C702576122828770008F3666 /* Sources */,
+				C702576222828770008F3666 /* Frameworks */,
+				C702576322828770008F3666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Princeton Tour";
+			productName = "Princeton Tour";
+			productReference = C702576522828770008F3666 /* Princeton Tour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C702577822828772008F3666 /* Princeton TourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C702579022828772008F3666 /* Build configuration list for PBXNativeTarget "Princeton TourTests" */;
+			buildPhases = (
+				C702577522828772008F3666 /* Sources */,
+				C702577622828772008F3666 /* Frameworks */,
+				C702577722828772008F3666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C702577B22828772008F3666 /* PBXTargetDependency */,
+			);
+			name = "Princeton TourTests";
+			productName = "Princeton TourTests";
+			productReference = C702577922828772008F3666 /* Princeton TourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C702578322828772008F3666 /* Princeton TourUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C702579322828772008F3666 /* Build configuration list for PBXNativeTarget "Princeton TourUITests" */;
+			buildPhases = (
+				C702578022828772008F3666 /* Sources */,
+				C702578122828772008F3666 /* Frameworks */,
+				C702578222828772008F3666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C702578622828772008F3666 /* PBXTargetDependency */,
+			);
+			name = "Princeton TourUITests";
+			productName = "Princeton TourUITests";
+			productReference = C702578422828772008F3666 /* Princeton TourUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C702575D22828770008F3666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ron Miasnik";
+				TargetAttributes = {
+					C702576422828770008F3666 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C702577822828772008F3666 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C702576422828770008F3666;
+					};
+					C702578322828772008F3666 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C702576422828770008F3666;
+					};
+				};
+			};
+			buildConfigurationList = C702576022828770008F3666 /* Build configuration list for PBXProject "Princeton Tour" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C702575C22828770008F3666;
+			productRefGroup = C702576622828770008F3666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C702576422828770008F3666 /* Princeton Tour */,
+				C702577822828772008F3666 /* Princeton TourTests */,
+				C702578322828772008F3666 /* Princeton TourUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C702576322828770008F3666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C702577322828772008F3666 /* LaunchScreen.storyboard in Resources */,
+				C702577022828772008F3666 /* Assets.xcassets in Resources */,
+				C702576E22828770008F3666 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C702577722828772008F3666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C702578222828772008F3666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C702576122828770008F3666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C702576B22828770008F3666 /* ViewController.swift in Sources */,
+				C702576922828770008F3666 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C702577522828772008F3666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C702577E22828772008F3666 /* Princeton_TourTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C702578022828772008F3666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C702578922828772008F3666 /* Princeton_TourUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C702577B22828772008F3666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C702576422828770008F3666 /* Princeton Tour */;
+			targetProxy = C702577A22828772008F3666 /* PBXContainerItemProxy */;
+		};
+		C702578622828772008F3666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C702576422828770008F3666 /* Princeton Tour */;
+			targetProxy = C702578522828772008F3666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C702576C22828770008F3666 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C702576D22828770008F3666 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C702577122828772008F3666 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C702577222828772008F3666 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C702578B22828772008F3666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C702578C22828772008F3666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C702578E22828772008F3666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Princeton Tour/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RonMiasnik.Princeton-Tour";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C702578F22828772008F3666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Princeton Tour/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RonMiasnik.Princeton-Tour";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C702579122828772008F3666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Princeton TourTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RonMiasnik.Princeton-TourTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Princeton Tour.app/Princeton Tour";
+			};
+			name = Debug;
+		};
+		C702579222828772008F3666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Princeton TourTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RonMiasnik.Princeton-TourTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Princeton Tour.app/Princeton Tour";
+			};
+			name = Release;
+		};
+		C702579422828772008F3666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Princeton TourUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RonMiasnik.Princeton-TourUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Princeton Tour";
+			};
+			name = Debug;
+		};
+		C702579522828772008F3666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Princeton TourUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RonMiasnik.Princeton-TourUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Princeton Tour";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C702576022828770008F3666 /* Build configuration list for PBXProject "Princeton Tour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C702578B22828772008F3666 /* Debug */,
+				C702578C22828772008F3666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C702578D22828772008F3666 /* Build configuration list for PBXNativeTarget "Princeton Tour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C702578E22828772008F3666 /* Debug */,
+				C702578F22828772008F3666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C702579022828772008F3666 /* Build configuration list for PBXNativeTarget "Princeton TourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C702579122828772008F3666 /* Debug */,
+				C702579222828772008F3666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C702579322828772008F3666 /* Build configuration list for PBXNativeTarget "Princeton TourUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C702579422828772008F3666 /* Debug */,
+				C702579522828772008F3666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C702575D22828770008F3666 /* Project object */;
+}
