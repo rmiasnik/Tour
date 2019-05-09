@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24C7FFC77897A6BD01F433F6 /* Pods_Princeton_TourUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4195B6DCC281B01F5B3C288E /* Pods_Princeton_TourUITests.framework */; };
+		C19014F606F2D2A1E337C5A7 /* Pods_Princeton_Tour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB011A20B9B7052ABC23AE3 /* Pods_Princeton_Tour.framework */; };
 		C702576922828770008F3666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C702576822828770008F3666 /* AppDelegate.swift */; };
 		C702576B22828770008F3666 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C702576A22828770008F3666 /* ViewController.swift */; };
 		C702576E22828770008F3666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C702576C22828770008F3666 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		C702577322828772008F3666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C702577122828772008F3666 /* LaunchScreen.storyboard */; };
 		C702577E22828772008F3666 /* Princeton_TourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C702577D22828772008F3666 /* Princeton_TourTests.swift */; };
 		C702578922828772008F3666 /* Princeton_TourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C702578822828772008F3666 /* Princeton_TourUITests.swift */; };
+		E319642105AC1182E6BADB77 /* Pods_Princeton_TourTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B3A4C013B02CCCF501C099 /* Pods_Princeton_TourTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2029AA2BB40F19E6F5036208 /* Pods-Princeton TourTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Princeton TourTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Princeton TourTests/Pods-Princeton TourTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3478BF1BAD6030F82EB93C7A /* Pods-Princeton TourUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Princeton TourUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Princeton TourUITests/Pods-Princeton TourUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4195B6DCC281B01F5B3C288E /* Pods_Princeton_TourUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Princeton_TourUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC7694CAA5F03843936C301 /* Pods-Princeton TourTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Princeton TourTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Princeton TourTests/Pods-Princeton TourTests.release.xcconfig"; sourceTree = "<group>"; };
+		72330DAC9C89885117791BE0 /* Pods-Princeton Tour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Princeton Tour.release.xcconfig"; path = "Pods/Target Support Files/Pods-Princeton Tour/Pods-Princeton Tour.release.xcconfig"; sourceTree = "<group>"; };
+		7A14B6B72CA7189E243F1B53 /* Pods-Princeton TourUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Princeton TourUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Princeton TourUITests/Pods-Princeton TourUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8283A264BA38637D9F04B4D5 /* Pods-Princeton Tour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Princeton Tour.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Princeton Tour/Pods-Princeton Tour.debug.xcconfig"; sourceTree = "<group>"; };
+		A8B3A4C013B02CCCF501C099 /* Pods_Princeton_TourTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Princeton_TourTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB011A20B9B7052ABC23AE3 /* Pods_Princeton_Tour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Princeton_Tour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C702576522828770008F3666 /* Princeton Tour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Princeton Tour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C702576822828770008F3666 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C702576A22828770008F3666 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C19014F606F2D2A1E337C5A7 /* Pods_Princeton_Tour.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E319642105AC1182E6BADB77 /* Pods_Princeton_TourTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C7FFC77897A6BD01F433F6 /* Pods_Princeton_TourUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B64B987DA4D7C35AC907520 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABB011A20B9B7052ABC23AE3 /* Pods_Princeton_Tour.framework */,
+				A8B3A4C013B02CCCF501C099 /* Pods_Princeton_TourTests.framework */,
+				4195B6DCC281B01F5B3C288E /* Pods_Princeton_TourUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90399CA3DF2F23EFD93B10C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8283A264BA38637D9F04B4D5 /* Pods-Princeton Tour.debug.xcconfig */,
+				72330DAC9C89885117791BE0 /* Pods-Princeton Tour.release.xcconfig */,
+				2029AA2BB40F19E6F5036208 /* Pods-Princeton TourTests.debug.xcconfig */,
+				6BC7694CAA5F03843936C301 /* Pods-Princeton TourTests.release.xcconfig */,
+				7A14B6B72CA7189E243F1B53 /* Pods-Princeton TourUITests.debug.xcconfig */,
+				3478BF1BAD6030F82EB93C7A /* Pods-Princeton TourUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C702575C22828770008F3666 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				C702577C22828772008F3666 /* Princeton TourTests */,
 				C702578722828772008F3666 /* Princeton TourUITests */,
 				C702576622828770008F3666 /* Products */,
+				90399CA3DF2F23EFD93B10C9 /* Pods */,
+				7B64B987DA4D7C35AC907520 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C702578D22828772008F3666 /* Build configuration list for PBXNativeTarget "Princeton Tour" */;
 			buildPhases = (
+				CD9712956761E2D5EA0DFBEB /* [CP] Check Pods Manifest.lock */,
 				C702576122828770008F3666 /* Sources */,
 				C702576222828770008F3666 /* Frameworks */,
 				C702576322828770008F3666 /* Resources */,
+				C0BEEFB7773933ECA4B1C71A /* [CP] Embed Pods Frameworks */,
+				E9D08F18685AE756FD842ABB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C702579022828772008F3666 /* Build configuration list for PBXNativeTarget "Princeton TourTests" */;
 			buildPhases = (
+				D0329BE03B4A845D41E629B1 /* [CP] Check Pods Manifest.lock */,
 				C702577522828772008F3666 /* Sources */,
 				C702577622828772008F3666 /* Frameworks */,
 				C702577722828772008F3666 /* Resources */,
+				160E01DBFFFBB8F2BE40B30D /* [CP] Embed Pods Frameworks */,
+				9997DAA609A73CC639E09268 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C702579322828772008F3666 /* Build configuration list for PBXNativeTarget "Princeton TourUITests" */;
 			buildPhases = (
+				C90BAC705078AA02ED1DCC80 /* [CP] Check Pods Manifest.lock */,
 				C702578022828772008F3666 /* Sources */,
 				C702578122828772008F3666 /* Frameworks */,
 				C702578222828772008F3666 /* Resources */,
+				0E053B3E05FAAF95042ED3A6 /* [CP] Embed Pods Frameworks */,
+				D57F1DE0CC258AC97BB45A76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +299,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E053B3E05FAAF95042ED3A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Princeton TourUITests/Pods-Princeton TourUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		160E01DBFFFBB8F2BE40B30D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Princeton TourTests/Pods-Princeton TourTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9997DAA609A73CC639E09268 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Princeton TourTests/Pods-Princeton TourTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0BEEFB7773933ECA4B1C71A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Princeton Tour/Pods-Princeton Tour-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Princeton Tour/Pods-Princeton Tour-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C90BAC705078AA02ED1DCC80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Princeton TourUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD9712956761E2D5EA0DFBEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Princeton Tour-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0329BE03B4A845D41E629B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Princeton TourTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D57F1DE0CC258AC97BB45A76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Princeton TourUITests/Pods-Princeton TourUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9D08F18685AE756FD842ABB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Princeton Tour/Pods-Princeton Tour-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C702576122828770008F3666 /* Sources */ = {
@@ -430,9 +629,11 @@
 		};
 		C702578E22828772008F3666 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8283A264BA38637D9F04B4D5 /* Pods-Princeton Tour.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 334YRLPHY8;
 				INFOPLIST_FILE = "Princeton Tour/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +648,11 @@
 		};
 		C702578F22828772008F3666 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72330DAC9C89885117791BE0 /* Pods-Princeton Tour.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 334YRLPHY8;
 				INFOPLIST_FILE = "Princeton Tour/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +667,7 @@
 		};
 		C702579122828772008F3666 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2029AA2BB40F19E6F5036208 /* Pods-Princeton TourTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +688,7 @@
 		};
 		C702579222828772008F3666 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC7694CAA5F03843936C301 /* Pods-Princeton TourTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +709,7 @@
 		};
 		C702579422828772008F3666 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A14B6B72CA7189E243F1B53 /* Pods-Princeton TourUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +729,7 @@
 		};
 		C702579522828772008F3666 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3478BF1BAD6030F82EB93C7A /* Pods-Princeton TourUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
